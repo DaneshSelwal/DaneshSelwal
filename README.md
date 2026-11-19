@@ -2,6 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/%F0%9F%9A%80%20CURRENTLY-Graduate%20Engineer%20Trainee%20%40%20L%26T%20Renewables%20%C2%B7%20Tashkent-8b7bff?style=for-the-badge&labelColor=0d0b2b" alt="Currently: Graduate Engineer Trainee at L&T Renewables, Tashkent">
+  <a href="#publications"><img src="https://img.shields.io/badge/%F0%9F%8F%86%20BEST%20PAPER%20AWARD-SPACE%202026-ffd27a?style=for-the-badge&labelColor=0d0b2b" alt="Best Paper Award, SPACE 2026"></a>
 </p>
 
 <p align="center">
@@ -15,11 +16,16 @@ I'm a **civil engineer working with AI**, and the question I care about most is
 a confident wrong answer can be costly (a weak concrete mix, a scoured bridge pier, a misread land
 map), so I build models that give an honest range or set of answers, not just a single guess.
 
-- 🚀 Currently a **Graduate Engineer Trainee at L&T Renewables** in Tashkent, Uzbekistan
-- 🎓 Studied **Civil Engineering at NIT Kurukshetra**, researching uncertainty quantification with Prof. Mahesh Pal
-- 🛰️ Mapped land from satellite images as a research intern at **IIT Ropar**
-- 🌍 Worked with **IIT Mandi** on AI for earthquake engineering
-- 👁️ Built **MediScan AI**, an eye-disease classifier from retinal images, as an AI/ML intern with **Infosys Springboard**
+- 🚀 **Graduate Engineer Trainee, L&T Renewables** (Planning Department), working on the **Kungrad 1500 MW
+  wind power plant + 300 MW battery storage** in Karakalpakstan, Uzbekistan: Central Asia's largest single-site
+  renewable energy project
+- 🎓 **B.Tech Civil Engineering, NIT Kurukshetra** (2022–26) and undergraduate research assistant with
+  **Prof. Mahesh Pal**, studying uncertainty quantification for regression and classification
+- 🛰️ **Research intern, IIT Ropar** with Dr. Shray Pathak: deep learning on Sentinel-2 satellite images for land-cover mapping
+- 🌍 **IIT Mandi collaboration:** physics-informed generative AI for earthquake ground motion
+- 💬 **Prompt engineer, Soul AI** (part-time): testing and comparing answers from different large language models
+- 👁️ **AI/ML intern, Infosys Springboard:** built MediScan AI, which spots eye diseases in retinal images
+- 📄 **2 journal papers, 2 conference papers** (one with a Best Paper Award) and more under review, all on uncertainty
 
 <img src="assets/header-explore.svg" width="100%" alt="Where AI meets civil engineering">
 
@@ -47,6 +53,58 @@ Concrete, foundations, bridges, rivers, water quality and earthquakes: real prob
 **Earth from space**
 
 Satellite and airborne images turned into land maps, with a confidence for every pixel
+
+</td>
+</tr>
+</table>
+
+<img src="assets/header-publications.svg" width="100%" alt="Publications">
+
+<a id="publications"></a>
+
+<table>
+<tr>
+<td width="16%" align="center">📘<br><sub><b>JOURNAL</b><br>2026</sub></td>
+<td>
+
+**[Uncertainty Estimation in Predicting Suspended Sediment Load Using Probabilistic Machine Learning and Conformal Prediction](https://doi.org/10.1061/JHYEFF.HEENG-6825)**<br>
+*ASCE Journal of Hydrologic Engineering* · code: [ML_Analysis_Sediment_Load](https://github.com/DaneshSelwal/ML_Analysis_Sediment_Load)
+
+</td>
+</tr>
+<tr>
+<td align="center">📗<br><sub><b>JOURNAL</b><br>2026</sub></td>
+<td>
+
+**[Traffic Noise Modelling using Integrated Conformal Prediction Based Uncertainty Estimation with Machine Learning Algorithms](https://ijths.com/2026/04/12/traffic-noise-modelling-using-integrated-conformal-prediction-based-uncertainty-estimation-with-machine-learning-algorithms/)**<br>
+*International Journal of Technology, Health and Sustainability (IJTHS)*
+
+</td>
+</tr>
+<tr>
+<td align="center">🏆<br><sub><b>BEST PAPER</b><br>2026</sub></td>
+<td>
+
+**[Conformal Prediction based Uncertainty Estimation for Remote Sensing Classifications](https://nitkkr.ac.in/international-conference-on-sustainable-planning-architecture-and-civil-engineering-space-2026-held-on-january-23-25-2026/)**<br>
+*SPACE 2026 Conference*, **Best Paper Award** · code: [Conformal_Prediction_For_Remote_Sensing_6bands](https://github.com/DaneshSelwal/Conformal_Prediction_For_Remote_Sensing_6bands)
+
+</td>
+</tr>
+<tr>
+<td align="center">📙<br><sub><b>CONFERENCE</b><br>2025</sub></td>
+<td>
+
+**Uncertainty Estimation for Pier Scour Modelling using Conformal Prediction**<br>
+*HYDRO 2025 International Conference* · code: [ML_Analysis_Scour_Data](https://github.com/DaneshSelwal/ML_Analysis_Scour_Data)
+
+</td>
+</tr>
+<tr>
+<td align="center">⏳<br><sub><b>UNDER REVIEW</b><br>2026</sub></td>
+<td>
+
+**Conformal Prediction based Uncertainty Estimation with Remote Sensing Data**<br>
+*[IGARSS 2026](https://ingarss2026.co.in/)* · plus one more paper under review at *ICCDRH*
 
 </td>
 </tr>
@@ -151,8 +209,8 @@ during an earthquake.
 Prediction pipelines for core civil problems, each giving a **range** you can trust, not just a number:
 
 - 🧱 [Concrete strength](https://github.com/DaneshSelwal/Concrete_data_analysis)
-- 🌉 [Bridge pier scour](https://github.com/DaneshSelwal/ML_Analysis_Scour_Data)
-- 🏞️ [Sediment load in rivers](https://github.com/DaneshSelwal/ML_Analysis_Sediment_Load)
+- 🌉 [Bridge pier scour](https://github.com/DaneshSelwal/ML_Analysis_Scour_Data): 📙 HYDRO 2025 paper
+- 🏞️ [Sediment load in rivers](https://github.com/DaneshSelwal/ML_Analysis_Sediment_Load): 📘 ASCE journal paper
 - 💧 [Water quality](https://github.com/DaneshSelwal/ML_Analysis_Water_Quality)
 - 🏢 [Pile settlement](https://github.com/DaneshSelwal/ML_Analysis_Pile_Settlement)
 
@@ -175,17 +233,20 @@ vinyl record, karaoke-style synced lyrics, shake-to-skip, a sleep timer and a da
 <img src="assets/header-toolkit.svg" width="100%" alt="Toolkit">
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=py,tensorflow,pytorch,sklearn,kotlin,androidstudio,gcp,git,github,vscode&theme=dark" alt="Python, TensorFlow, PyTorch, scikit-learn, Kotlin, Android Studio, Google Cloud, Git, GitHub, VS Code">
+  <img src="https://skillicons.dev/icons?i=py,tensorflow,pytorch,sklearn,docker,kotlin,androidstudio,gcp,git,github,vscode&theme=dark" alt="Python, TensorFlow, PyTorch, scikit-learn, Docker, Kotlin, Android Studio, Google Cloud, Git, GitHub, VS Code">
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/agy-Google%20Antigravity-5ee7ff?style=for-the-badge&labelColor=0d0b2b" alt="agy, Google Antigravity CLI">
   <img src="https://img.shields.io/badge/Claude%20Code-AI%20co--pilot-ffd27a?style=for-the-badge&labelColor=0d0b2b&logo=claude&logoColor=ffd27a" alt="Claude Code">
+  <img src="https://img.shields.io/badge/Gemini%20CLI-%26%20Hermes%20Agent-ff7ad9?style=for-the-badge&labelColor=0d0b2b&logo=googlegemini&logoColor=ff7ad9" alt="Gemini CLI and Hermes Agent">
   <img src="https://img.shields.io/badge/Google%20Earth%20Engine-satellite%20data-8b7bff?style=for-the-badge&labelColor=0d0b2b&logo=googleearth&logoColor=8b7bff" alt="Google Earth Engine">
+  <img src="https://img.shields.io/badge/ArcGIS-mapping-5ee7ff?style=for-the-badge&labelColor=0d0b2b" alt="ArcGIS">
 </p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/danesh-selwal/"><img src="https://img.shields.io/badge/LinkedIn-danesh--selwal-5ee7ff?style=for-the-badge&labelColor=0d0b2b&logo=linkedin&logoColor=5ee7ff" alt="LinkedIn"></a>
+  <a href="https://developers.google.com/profile/u/111487325660597815415"><img src="https://img.shields.io/badge/Google%20Developers-profile-8b7bff?style=for-the-badge&labelColor=0d0b2b&logo=google&logoColor=8b7bff" alt="Google Developers profile"></a>
   <a href="https://huggingface.co/DaneshSelwal"><img src="https://img.shields.io/badge/Hugging%20Face-DaneshSelwal-ff7ad9?style=for-the-badge&labelColor=0d0b2b&logo=huggingface&logoColor=ffd27a" alt="Hugging Face"></a>
   <a href="https://www.kaggle.com/daneshselwal"><img src="https://img.shields.io/badge/Kaggle-daneshselwal-5ee7ff?style=for-the-badge&labelColor=0d0b2b&logo=kaggle&logoColor=5ee7ff" alt="Kaggle"></a>
 </p>

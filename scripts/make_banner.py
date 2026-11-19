@@ -154,6 +154,7 @@ def footer():
 
 HEADERS = [("about", "About me", "the person behind the telescope", CYAN, 1),
            ("explore", "Where AI meets civil engineering", "with honest uncertainty", VIOLET, 2),
+           ("publications", "Publications", "research in orbit", GOLD, 7),
            ("current", "Currently working on", "missions in progress", GREEN, 5),
            ("pinned", "Pinned projects", "flagship missions", PINK, 3),
            ("built", "Other things I have built", "side quests", CYAN, 6),
