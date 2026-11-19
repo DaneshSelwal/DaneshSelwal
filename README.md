@@ -104,7 +104,7 @@ Satellite and airborne images turned into land maps, with a confidence for every
 <td>
 
 **Conformal Prediction based Uncertainty Estimation with Remote Sensing Data**<br>
-*[IGARSS 2026](https://ingarss2026.co.in/)* · plus one more paper under review at *ICCDRH*
+*[InGARSS 2026](https://ingarss2026.co.in/), IEEE India Geoscience and Remote Sensing Symposium* · plus one more paper under review at *ICCDRH*
 
 </td>
 </tr>
