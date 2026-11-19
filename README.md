@@ -15,10 +15,10 @@ of smart machines: *what do you see, and how sure are you?* Most of my projects 
 satellite images and machine learning, and I learn something new with every one of them.
 
 - 🚀 Currently a **Graduate Engineer Trainee at L&T Renewables** in Tashkent, Uzbekistan
-- 🎓 Studied **Civil Engineering at NIT Kurukshetra**, where I started doing ML research
+- 🎓 Studied **Civil Engineering at NIT Kurukshetra**, researching probabilistic ML with Prof. Mahesh Pal
 - 🛰️ Mapped land from satellite images as a research intern at **IIT Ropar**
 - 🌍 Worked with **IIT Mandi** on AI for earthquake engineering
-- 🤖 Learned AI and ML as an intern with **Infosys Springboard**
+- 👁️ Built **MediScan AI**, an eye-disease classifier from retinal images, as an AI/ML intern with **Infosys Springboard**
 
 <img src="assets/header-explore.svg" width="100%" alt="What I explore">
 
@@ -51,53 +51,121 @@ Using ML to understand concrete, rivers, soil and earthquakes
 </tr>
 </table>
 
-<img src="assets/header-projects.svg" width="100%" alt="Projects">
+<img src="assets/projects/crew.svg" width="100%" alt="My favourite AI co-pilots: agy (Google Antigravity CLI) and Claude Code">
+
+<img src="assets/header-current.svg" width="100%" alt="Currently working on">
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-🪐 **[Hyperspectral land-cover with uncertainty](https://github.com/DaneshSelwal/DIAS-65Band-Hyperspectral-UQ)**<br>
-Classifying an airborne image with many colour bands, and showing how confident the AI is about each pixel.
+<a href="https://github.com/DaneshSelwal/HELIOS-100MW-Solar-PV-BESS-PROJECT"><img src="assets/projects/helios.svg" width="100%" alt="HELIOS cover: solar panels, a battery and a crew of AI agents"></a>
+
+### ☀️ [HELIOS](https://github.com/DaneshSelwal/HELIOS-100MW-Solar-PV-BESS-PROJECT)
+`🟢 in progress`
+
+A make-believe 100 MW solar + battery power plant, built from contract to handover, where **every
+engineer, client and supplier is an AI agent** with its own personality. Each simulated day they hold
+meetings, write letters and produce real project documents, and every day is saved as one git commit.
+Brings my day job in renewables together with AI agents.
 
 </td>
 <td width="50%" valign="top">
 
-🌌 **[Multispectral land-cover with uncertainty](https://github.com/DaneshSelwal/6Band-Multispectral-UQ)**<br>
-The companion study on a simpler image, comparing many ways for an AI to express doubt.
+<a href="https://github.com/DaneshSelwal/Classification_Uncertainty_Quantification_Analysis"><img src="assets/projects/classification.png" width="100%" alt="Satellite scene, true land-cover map and an AI-predicted map"></a>
+
+### 🧭 [Classification UQ: the umbrella project](https://github.com/DaneshSelwal/Classification_Uncertainty_Quantification_Analysis)
+`🟢 in progress`
+
+My main research home: one framework that brings together many ways for an AI to say how sure it is
+about a land-cover map (ensembles, Bayesian deep learning, conformal and evidential methods)
+and tests them on several satellite and airborne datasets.
+
+</td>
+</tr>
+</table>
+
+<img src="assets/header-pinned.svg" width="100%" alt="Pinned projects">
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+<a href="https://github.com/DaneshSelwal/DIAS-65Band-Hyperspectral-UQ"><img src="assets/projects/dias.png" width="100%" alt="Airborne hyperspectral scene, its true land-cover map and an AI-predicted map"></a>
+
+### 🪐 [Which pixels can you trust?](https://github.com/DaneshSelwal/DIAS-65Band-Hyperspectral-UQ)
+An airborne image with 65 colour bands, classified by 11 AI models. Each one is then asked how
+confident it is about every single pixel. The
+[6-band companion study](https://github.com/DaneshSelwal/6Band-Multispectral-UQ) repeats it on a simpler image.
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://github.com/DaneshSelwal/LULC_Classification_Singrauli_region"><img src="assets/projects/lulc.png" width="100%" alt="Land-use maps of the Singrauli region from three models"></a>
+
+### 🛰️ [Mapping the Singrauli region](https://github.com/DaneshSelwal/LULC_Classification_Singrauli_region)
+My IIT Ropar internship: maps of water, farms, forest, towns and mines in a coal-mining region,
+made from Sentinel-2 satellite images with Google Earth Engine and deep learning.
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-🛰️ **[Mapping the Singrauli region](https://github.com/DaneshSelwal/LULC_Classification_Singrauli_region)**<br>
-My IIT Ropar internship project: land-use maps of a mining region from Sentinel-2 satellite images.
+<a href="https://github.com/DaneshSelwal/Regression_Uncertainty_Quantification_Analysis"><img src="assets/projects/regression.svg" width="100%" alt="A prediction line with a shaded uncertainty band"></a>
+
+### 🌠 [Regression UQ](https://github.com/DaneshSelwal/Regression_Uncertainty_Quantification_Analysis) · [RegUQ](https://github.com/DaneshSelwal/reguq)
+A plug-and-play framework, and a pip-installable Python library, that gives every prediction an
+honest range instead of a single number.
 
 </td>
 <td width="50%" valign="top">
 
-🌋 **[AI for earthquake ground motion](https://github.com/DaneshSelwal/physics-informed-CWGAN-ground-motion)**<br>
-A generative AI model, guided by physics, that predicts how the ground shakes during an earthquake.
+<a href="https://github.com/DaneshSelwal/colab-mcp-server"><img src="assets/projects/agents.svg" width="100%" alt="An AI agent sending notebook cells to the cloud"></a>
+
+### 🤖 [Colab MCP server](https://github.com/DaneshSelwal/colab-mcp-server) · [Kaggle runner](https://github.com/DaneshSelwal/agent-kaggle-runner)
+Tools that let AI agents like agy and Claude Code run my notebooks on free cloud GPUs in Google Colab
+and Kaggle, with no browser clicking needed.
+
+</td>
+</tr>
+</table>
+
+<img src="assets/header-built.svg" width="100%" alt="Other things I have built">
+
+<table>
+<tr>
+<td colspan="2">
+
+<a href="https://github.com/DaneshSelwal/Mytube_music"><img src="assets/projects/mytube.svg" width="100%" alt="MyTube Music: an Android music player with a spinning vinyl"></a>
+
+### 🎵 [MyTube Music](https://github.com/DaneshSelwal/Mytube_music): my Android app
+A music player for the songs on your phone, written in Kotlin with Jetpack Compose. It has a spinning
+vinyl record, karaoke-style synced lyrics, shake-to-skip, a sleep timer and a dark "Midnight Vinyl" look.
+(I also made a small [Tip Calculator](https://github.com/DaneshSelwal/Tip-Calculator) app while learning Android.)
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-🌠 **[RegUQ](https://github.com/DaneshSelwal/reguq)**<br>
-A small Python library for giving predictions an honest range instead of a single number.
+<a href="https://github.com/DaneshSelwal/physics-informed-CWGAN-ground-motion"><img src="assets/projects/quake.svg" width="100%" alt="A recorded and a generated earthquake wave"></a>
+
+### 🌋 [AI that imagines earthquakes](https://github.com/DaneshSelwal/physics-informed-CWGAN-ground-motion)
+With IIT Mandi: a generative AI model, guided by physics, that predicts how the ground shakes
+during an earthquake.
 
 </td>
 <td width="50%" valign="top">
 
-🏗️ **ML for civil engineering**<br>
-Predicting
-[concrete strength](https://github.com/DaneshSelwal/Concrete_data_analysis),
-[bridge scour](https://github.com/DaneshSelwal/ML_Analysis_Scour_Data),
-[sediment load](https://github.com/DaneshSelwal/ML_Analysis_Sediment_Load),
-[water quality](https://github.com/DaneshSelwal/ML_Analysis_Water_Quality) and
-[pile settlement](https://github.com/DaneshSelwal/ML_Analysis_Pile_Settlement).
+### 🏗️ ML for civil engineering
+Small projects where I used ML to predict how real structures and rivers behave:
+
+- 🧱 [Concrete strength](https://github.com/DaneshSelwal/Concrete_data_analysis)
+- 🌉 [Bridge scour](https://github.com/DaneshSelwal/ML_Analysis_Scour_Data)
+- 🏞️ [Sediment in rivers](https://github.com/DaneshSelwal/ML_Analysis_Sediment_Load)
+- 💧 [Water quality](https://github.com/DaneshSelwal/ML_Analysis_Water_Quality)
+- 🏢 [Pile settlement](https://github.com/DaneshSelwal/ML_Analysis_Pile_Settlement)
 
 </td>
 </tr>
@@ -106,13 +174,20 @@ Predicting
 <img src="assets/header-toolkit.svg" width="100%" alt="Toolkit">
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=py,tensorflow,pytorch,sklearn,gcp,git,github,vscode&theme=dark" alt="Python, TensorFlow, PyTorch, scikit-learn, Google Cloud, Git, GitHub, VS Code">
+  <img src="https://skillicons.dev/icons?i=py,tensorflow,pytorch,sklearn,kotlin,androidstudio,gcp,git,github,vscode&theme=dark" alt="Python, TensorFlow, PyTorch, scikit-learn, Kotlin, Android Studio, Google Cloud, Git, GitHub, VS Code">
 </p>
 
 <p align="center">
-  <a href="https://daneshselwal.github.io"><img src="https://img.shields.io/badge/Portfolio-daneshselwal.github.io-5ee7ff?style=for-the-badge&labelColor=0d0b2b&logo=googlechrome&logoColor=5ee7ff" alt="Portfolio"></a>
+  <img src="https://img.shields.io/badge/agy-Google%20Antigravity-5ee7ff?style=for-the-badge&labelColor=0d0b2b" alt="agy, Google Antigravity CLI">
+  <img src="https://img.shields.io/badge/Claude%20Code-AI%20co--pilot-ffd27a?style=for-the-badge&labelColor=0d0b2b&logo=claude&logoColor=ffd27a" alt="Claude Code">
+  <img src="https://img.shields.io/badge/Google%20Earth%20Engine-satellite%20data-8b7bff?style=for-the-badge&labelColor=0d0b2b&logo=googleearth&logoColor=8b7bff" alt="Google Earth Engine">
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/danesh-selwal/"><img src="https://img.shields.io/badge/LinkedIn-danesh--selwal-5ee7ff?style=for-the-badge&labelColor=0d0b2b&logo=linkedin&logoColor=5ee7ff" alt="LinkedIn"></a>
+  <a href="https://daneshselwal.github.io"><img src="https://img.shields.io/badge/Portfolio-daneshselwal.github.io-8b7bff?style=for-the-badge&labelColor=0d0b2b&logo=googlechrome&logoColor=8b7bff" alt="Portfolio"></a>
   <a href="https://huggingface.co/DaneshSelwal"><img src="https://img.shields.io/badge/Hugging%20Face-DaneshSelwal-ff7ad9?style=for-the-badge&labelColor=0d0b2b&logo=huggingface&logoColor=ffd27a" alt="Hugging Face"></a>
-  <a href="https://www.kaggle.com/daneshselwal"><img src="https://img.shields.io/badge/Kaggle-daneshselwal-8b7bff?style=for-the-badge&labelColor=0d0b2b&logo=kaggle&logoColor=5ee7ff" alt="Kaggle"></a>
+  <a href="https://www.kaggle.com/daneshselwal"><img src="https://img.shields.io/badge/Kaggle-daneshselwal-5ee7ff?style=for-the-badge&labelColor=0d0b2b&logo=kaggle&logoColor=5ee7ff" alt="Kaggle"></a>
 </p>
 
 <img src="assets/footer.svg" width="100%" alt="Thanks for stopping by. Keep exploring.">

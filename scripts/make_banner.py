@@ -12,6 +12,7 @@ os.makedirs(out, exist_ok=True)
 SPACE0, SPACE1 = "#03040f", "#0d0b2b"
 VIOLET, CYAN, PINK, GOLD = "#8b7bff", "#5ee7ff", "#ff7ad9", "#ffd27a"
 INK, SOFT = "#f4f2ff", "#b9b4e6"
+GREEN = "#5dffa8"
 SANS = "'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif"
 MONO = "'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace"
 
@@ -153,7 +154,9 @@ def footer():
 
 HEADERS = [("about", "About me", "the person behind the telescope", CYAN, 1),
            ("explore", "What I explore", "where curiosity takes me", VIOLET, 2),
-           ("projects", "Projects", "missions so far", PINK, 3),
+           ("current", "Currently working on", "missions in progress", GREEN, 5),
+           ("pinned", "Pinned projects", "flagship missions", PINK, 3),
+           ("built", "Other things I have built", "side quests", CYAN, 6),
            ("toolkit", "Toolkit", "what is on board", GOLD, 4)]
 
 open(os.path.join(out, "banner.svg"), "w", encoding="utf-8").write(banner())
