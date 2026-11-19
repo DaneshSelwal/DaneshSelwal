@@ -53,7 +53,7 @@ def planet_defs():
 def banner():
     W, H = 1200, 330
     s = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" '
-         f'aria-label="Danesh Selwal. Civil engineer exploring AI and machine learning. Currently Graduate Engineer Trainee at L&amp;T Renewables, Tashkent.">']
+         f'aria-label="Danesh Selwal. AI that knows when it might be wrong, built for civil engineering. Currently Graduate Engineer Trainee at L&amp;T Renewables, Tashkent.">']
     s.append(f'''<defs>{GLOW}{planet_defs()}
 <radialGradient id="bg" cx=".7" cy=".4" r="1"><stop offset="0" stop-color="{SPACE1}"/><stop offset="1" stop-color="{SPACE0}"/></radialGradient>
 <linearGradient id="name" x1="0" x2="1"><stop offset="0" stop-color="#ffffff"/><stop offset=".6" stop-color="#d9d2ff"/><stop offset="1" stop-color="{CYAN}"/></linearGradient>
@@ -103,11 +103,11 @@ def banner():
              f'<circle cx="78" cy="44" r="4.5" fill="#5dffa8"><animate attributeName="opacity" values="1;.25;1" dur="1.6s" repeatCount="indefinite"/></circle>'
              f'<text x="92" y="48.5" fill="{SOFT}">CURRENTLY · <tspan fill="{INK}" font-weight="700">Graduate Engineer Trainee @ L&amp;T Renewables</tspan></text></g>')
     s.append(f'<text x="60" y="146" font-size="64" font-weight="800" fill="url(#name)" filter="url(#glow)">Danesh Selwal</text>')
-    s.append(f'<text x="62" y="190" font-size="21" fill="{INK}" opacity=".92">Civil engineer exploring the universe of</text>')
-    s.append(f'<text x="62" y="218" font-size="21" fill="{INK}" opacity=".92"><tspan fill="{CYAN}" font-weight="700">AI</tspan> &amp; '
-             f'<tspan fill="{PINK}" font-weight="700">machine learning</tspan> ✦</text>')
+    s.append(f'<text x="62" y="190" font-size="21" fill="{INK}" opacity=".92">AI that knows when it might be wrong,</text>')
+    s.append(f'<text x="62" y="218" font-size="21" fill="{INK}" opacity=".92">built for <tspan fill="{CYAN}" font-weight="700">civil engineering</tspan> '
+             f'<tspan fill="{PINK}" font-weight="700">✦</tspan></text>')
     x = 62
-    for label, col in [("Artificial Intelligence", CYAN), ("Machine Learning", VIOLET), ("Earth from space", PINK)]:
+    for label, col in [("Uncertainty Quantification", CYAN), ("AI / ML", VIOLET), ("Civil Engineering", PINK)]:
         w = len(label) * 8.4 + 34
         s.append(f'<rect x="{x}" y="246" width="{w:.0f}" height="32" rx="16" fill="{col}" fill-opacity=".10" stroke="{col}" stroke-opacity=".7"/>'
                  f'<circle cx="{x + 16}" cy="262" r="3.5" fill="{col}"/>'
@@ -153,7 +153,7 @@ def footer():
 
 
 HEADERS = [("about", "About me", "the person behind the telescope", CYAN, 1),
-           ("explore", "What I explore", "where curiosity takes me", VIOLET, 2),
+           ("explore", "Where AI meets civil engineering", "with honest uncertainty", VIOLET, 2),
            ("current", "Currently working on", "missions in progress", GREEN, 5),
            ("pinned", "Pinned projects", "flagship missions", PINK, 3),
            ("built", "Other things I have built", "side quests", CYAN, 6),

@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-label="Danesh Selwal. Civil engineer exploring AI and machine learning. Currently Graduate Engineer Trainee at L&amp;T Renewables, Tashkent.">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-label="Danesh Selwal. AI that knows when it might be wrong, built for civil engineering. Currently Graduate Engineer Trainee at L&amp;T Renewables, Tashkent.">
 <defs><filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.2" result="b"/>
 <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
 <filter id="haze" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="38"/></filter><radialGradient id="pl" cx=".35" cy=".3" r=".85"><stop offset="0" stop-color="#b6a8ff"/>
@@ -43,11 +43,11 @@
 <g font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif">
 <g font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="13" letter-spacing=".6"><rect x="60" y="30" width="470" height="28" rx="14" fill="#ffffff" fill-opacity=".06" stroke="#8b7bff" stroke-opacity=".55"/><circle cx="78" cy="44" r="4.5" fill="#5dffa8"><animate attributeName="opacity" values="1;.25;1" dur="1.6s" repeatCount="indefinite"/></circle><text x="92" y="48.5" fill="#b9b4e6">CURRENTLY · <tspan fill="#f4f2ff" font-weight="700">Graduate Engineer Trainee @ L&amp;T Renewables</tspan></text></g>
 <text x="60" y="146" font-size="64" font-weight="800" fill="url(#name)" filter="url(#glow)">Danesh Selwal</text>
-<text x="62" y="190" font-size="21" fill="#f4f2ff" opacity=".92">Civil engineer exploring the universe of</text>
-<text x="62" y="218" font-size="21" fill="#f4f2ff" opacity=".92"><tspan fill="#5ee7ff" font-weight="700">AI</tspan> &amp; <tspan fill="#ff7ad9" font-weight="700">machine learning</tspan> ✦</text>
-<rect x="62" y="246" width="227" height="32" rx="16" fill="#5ee7ff" fill-opacity=".10" stroke="#5ee7ff" stroke-opacity=".7"/><circle cx="78" cy="262" r="3.5" fill="#5ee7ff"/><text x="89" y="267" font-size="14" font-weight="600" fill="#f4f2ff">Artificial Intelligence</text>
-<rect x="299.20000000000005" y="246" width="168" height="32" rx="16" fill="#8b7bff" fill-opacity=".10" stroke="#8b7bff" stroke-opacity=".7"/><circle cx="315.20000000000005" cy="262" r="3.5" fill="#8b7bff"/><text x="326.20000000000005" y="267" font-size="14" font-weight="600" fill="#f4f2ff">Machine Learning</text>
-<rect x="477.6" y="246" width="168" height="32" rx="16" fill="#ff7ad9" fill-opacity=".10" stroke="#ff7ad9" stroke-opacity=".7"/><circle cx="493.6" cy="262" r="3.5" fill="#ff7ad9"/><text x="504.6" y="267" font-size="14" font-weight="600" fill="#f4f2ff">Earth from space</text>
+<text x="62" y="190" font-size="21" fill="#f4f2ff" opacity=".92">AI that knows when it might be wrong,</text>
+<text x="62" y="218" font-size="21" fill="#f4f2ff" opacity=".92">built for <tspan fill="#5ee7ff" font-weight="700">civil engineering</tspan> <tspan fill="#ff7ad9" font-weight="700">✦</tspan></text>
+<rect x="62" y="246" width="252" height="32" rx="16" fill="#5ee7ff" fill-opacity=".10" stroke="#5ee7ff" stroke-opacity=".7"/><circle cx="78" cy="262" r="3.5" fill="#5ee7ff"/><text x="89" y="267" font-size="14" font-weight="600" fill="#f4f2ff">Uncertainty Quantification</text>
+<rect x="324.4" y="246" width="93" height="32" rx="16" fill="#8b7bff" fill-opacity=".10" stroke="#8b7bff" stroke-opacity=".7"/><circle cx="340.4" cy="262" r="3.5" fill="#8b7bff"/><text x="351.4" y="267" font-size="14" font-weight="600" fill="#f4f2ff">AI / ML</text>
+<rect x="427.2" y="246" width="177" height="32" rx="16" fill="#ff7ad9" fill-opacity=".10" stroke="#ff7ad9" stroke-opacity=".7"/><circle cx="443.2" cy="262" r="3.5" fill="#ff7ad9"/><text x="454.2" y="267" font-size="14" font-weight="600" fill="#f4f2ff">Civil Engineering</text>
 <text x="62" y="306" font-size="13" fill="#b9b4e6" opacity=".85">Tashkent, Uzbekistan</text>
 </g></g>
 <rect x=".5" y=".5" width="1199" height="329" rx="18" fill="none" stroke="#8b7bff" stroke-opacity=".35"/>

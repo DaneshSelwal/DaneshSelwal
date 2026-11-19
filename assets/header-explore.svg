@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="58" viewBox="0 0 900 58" role="img" aria-label="What I explore">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="58" viewBox="0 0 900 58" role="img" aria-label="Where AI meets civil engineering">
 <defs><filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.2" result="b"/>
 <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
 <filter id="haze" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="38"/></filter><linearGradient id="hb" x1="0" x2="1"><stop offset="0" stop-color="#120c38"/><stop offset="1" stop-color="#03040f"/></linearGradient>
@@ -10,6 +10,6 @@
 <circle cx="36" cy="29" r="10" fill="url(#mini)"/>
 <g transform="rotate(-18 36 29)"><path d="M17,29 A19,5 0 0 0 55,29" fill="none" stroke="#8b7bff" stroke-width="1.8"/></g>
 <circle r="2.2" fill="#fff" filter="url(#glow)"><animateMotion dur="4s" repeatCount="indefinite" path="M12,29 a24,9 0 1,0 48,0 a24,9 0 1,0 -48,0"/></circle>
-<text x="70" y="37" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif" font-size="22" font-weight="800" fill="#f4f2ff">What I explore</text>
-<text x="876" y="35" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif" font-size="14" font-style="italic" fill="#8b7bff" text-anchor="end">where curiosity takes me</text>
+<text x="70" y="37" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif" font-size="22" font-weight="800" fill="#f4f2ff">Where AI meets civil engineering</text>
+<text x="876" y="35" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif" font-size="14" font-style="italic" fill="#8b7bff" text-anchor="end">with honest uncertainty</text>
 </svg>
