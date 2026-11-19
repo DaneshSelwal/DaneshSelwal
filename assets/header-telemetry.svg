@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="52" viewBox="0 0 900 52" role="img" aria-label="TELEMETRY">
+<defs><filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+  <feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="glow2" x="-30%" y="-30%" width="160%" height="160%">
+  <feGaussianBlur stdDeviation="1.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><linearGradient id="ln" x1="0" x2="1"><stop offset="0" stop-color="#00e5ff" stop-opacity=".9"/><stop offset="1" stop-color="#00e5ff" stop-opacity="0"/></linearGradient></defs>
+<rect x=".5" y=".5" width="899" height="51" rx="8" fill="#05070d" stroke="#00e5ff" stroke-opacity=".35"/>
+<g font-family="'SFMono-Regular','JetBrains Mono',Consolas,'Liberation Mono',Menlo,monospace">
+<text x="20" y="32" font-size="13" font-weight="700" letter-spacing="2" fill="#7f93ad">05 //</text>
+<text x="78" y="33" font-size="19" font-weight="800" letter-spacing="3" fill="#00e5ff" filter="url(#glow2)">TELEMETRY</text>
+<text x="880" y="31" font-size="11.5" font-weight="700" letter-spacing="2" fill="#00e5ff" text-anchor="end">[ LIVE ]</text>
+</g>
+<rect x="230" y="25" width="508" height="1.5" fill="url(#ln)"/>
+<circle cx="0" cy="25.75" r="3" fill="#00e5ff" filter="url(#glow)"><animate attributeName="cx" values="230;728" dur="2.6s" repeatCount="indefinite"/>
+<animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.1;.8;1" dur="2.6s" repeatCount="indefinite"/></circle>
+<path d="M6,16 L6,6 L16,6" fill="none" stroke="#00e5ff" stroke-width="2"/><path d="M894,16 L894,6 L884,6" fill="none" stroke="#00e5ff" stroke-width="2"/><path d="M6,36 L6,46 L16,46" fill="none" stroke="#00e5ff" stroke-width="2"/><path d="M894,36 L894,46 L884,46" fill="none" stroke="#00e5ff" stroke-width="2"/>
+</svg>
